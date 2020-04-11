@@ -1,0 +1,4 @@
+<h1>Hello {{message}}</h1>
+<app-user *ngFor="let u of users"  [user]="u"></app-user>
+<app-posts *ngFor="let singlePost of posts"  [post]="singlePost"></app-posts>
+<app-comment *ngFor="let singleComment of posts"  [comment]="singleComment"></app-comment>
